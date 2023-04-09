@@ -1,0 +1,191 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  /* border: 1px solid black; */
+  height: 90px;
+}
+
+.logo {
+  width: 200px;
+}
+
+.nav-items > ul{
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-items > ul >li {
+  padding: 10px;
+}
+
+/* card */
+
+.card{
+  width: 300px;
+  height: 350px;
+  /* border: 1px solid black; */
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card > img {
+  width: 100%;
+}
+
+/* resturant - list */
+
+.restranunt-list{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.link {
+  color: rgb(30, 29, 29);
+  text-decoration: none;
+}
+.link:hover {
+   color: rgb(30, 29, 29);
+   text-decoration: none;
+}
+
+.search-container {
+  display: flex;
+  justify-content: space-evenly;
+  height: 60px;
+  max-width : 500px;
+  align-items: center;
+  margin: auto;
+}
+
+.search-input {
+  height: 30px;
+  flex-basis: 350px;
+  appearance: none;
+  background-color: #EEEEEE;
+  border: 0px inset rgba(0, 0, 0, 0.4);
+  border-radius: 7px;
+  outline: none;
+  font-size: 16px;
+  padding : 5px;
+}
+
+.search-btn, .login-btn{
+  background-color: #ffc300;
+  height: 30px;
+  color : #001d3d;
+  flex-basis : 60px;
+  border-radius: 7px;
+  border: #ffc300;
+  outline: none;
+  font-size: 16px;
+} 
+.search-btn:hover {
+  cursor: pointer;
+}
+/* Shimmer Css */
+/* .shimmer-card{
+  width: 200px;
+  height: 200px;
+  background: lightgray;
+  margin: 20px;
+}  */
+
+.error-container {
+  height: 50px;
+  margin: auto;
+  text-align: center;
+}
+.hide {
+  display: none;
+}
+.error-msg {
+  width : 50px;
+  height: 30px;
+  font-size: 20px;
+  color : #c70039;
+}
+/*Shimmer CSS */
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap : 20px;
+  justify-content: space-evenly;
+}
+.shimmer-card {
+  flex-basis : 250px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-color: #d3d5df;
+  box-shadow: 0 4px 7px 0 rgb(218 220 230 / 60%);
+}
+.shimmer-title {
+  width: 60%;
+  margin-top: 10px;
+}
+.shimmer-tags {
+  width: 80%;
+  margin-top: 4px;
+}
+.shimmer-details {
+  width: 100%;
+  margin-top: 18px;
+}
+.shimmer-container .shimmer-img {
+  height: 144px;
+  width: 300px;
+}
+
+/*Animation to Shimmer Component Cards */
+.stroke {
+  height: 15px;
+  background: #777;
+}
+.animate {
+  animation: shimmer 3s;
+  animation-iteration-count: infinite;
+  background: linear-gradient(to right, #e6e6e6 5%, #cccccc 25%, #e6e6e6 35%);
+  background-size: 1000px 100%;
+}
+@keyframes shimmer {
+  from {
+    background-position: -1000px 0;
+  }
+  to {
+    background-position: 1000px 0;
+  }
+}
+
+/* 
+menu list */
+
+.menu-container{
+  display: flex;
+  gap: 5%;
+  margin: 20px;
+
+}
+
+.menu-list1{
+  width: 30%;
+}
+
+.menu-list1 > img{
+  width: 250px;
+  height: 200px;
+}
+
+.menu-list2{
+  width: 70%;
+
+}
+
+.items-img{
+  width: 100px;
+  height: 100px;
+  
+}
+
+
